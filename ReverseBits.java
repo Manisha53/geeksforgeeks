@@ -16,8 +16,9 @@ class GFG {
 		    long sum=0;
 		    for(int i=0;i<32;i++){
 		        
-		        long c=n%2;
-		        sum+=p*c;
+		        long c=n%2;        //binary ,remainder
+		        sum+=p*c;        //getting decimal equivalent
+		      
 		        p=p/2;
 		        n=n/2;
 		    }
