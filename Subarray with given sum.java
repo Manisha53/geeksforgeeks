@@ -29,10 +29,10 @@ class GFG {
 		        s[i]=in.nextInt();
 		    }
 		    
-		    int pos=0;
+		    int pos=0;       //starting index
 		     int ad=0;
 		     int flag=0;
-		    for(int i=0;i<n;i++){
+		    for(int i=0;i<n;i++){    // i is the last index of the resultant array
 		       ad+=s[i];
 		       while(ad>sum){
 		           ad-=s[pos];
