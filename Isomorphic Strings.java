@@ -55,7 +55,7 @@ class Solution
             countChars1[str1.charAt(i)-'a']++;
             countChars2[str2.charAt(i)-'a']++;
             
-            if(countChars1[str1.charAt(i)-'a'] != countChars2[str2.charAt(i)-'a']) return false; //frequency should be equal along with mantaining the order of characters
+            if(countChars1[str1.charAt(i)-'a'] != countChars2[str2.charAt(i)-'a']) return false; //frequency should be equal along with mantaining the order of characters,so we are comparing the count of each character in both strings
         }
         return true;
     }
